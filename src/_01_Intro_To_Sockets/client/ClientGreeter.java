@@ -26,7 +26,7 @@ public class ClientGreeter {
          //9. Close the client's server object
          client.close();
       } catch (IOException e){
-    	  
+			e.printStackTrace();
       }
    }
 }
